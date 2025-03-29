@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-28T15:49:46 IST" name="Suite" finished-at="2025-03-28T15:53:32 IST" duration-ms="225504">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T15:49:46 IST" name="Test" finished-at="2025-03-28T15:53:32 IST" duration-ms="225504">
+      <class name="test.TC_005ContactDetailsTest">
+        <test-method is-config="true" signature="reportiniatialization()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:49:46 IST" name="reportiniatialization" finished-at="2025-03-28T15:49:46 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportiniatialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:49:46 IST" name="setup" finished-at="2025-03-28T15:49:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:49:46 IST" name="testDetails" finished-at="2025-03-28T15:49:47 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:49:47 IST" name="lunchbrowser" finished-at="2025-03-28T15:49:58 IST" duration-ms="11570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testContactRedirectsToDetailsPage()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:49:58 IST" name="testContactRedirectsToDetailsPage" finished-at="2025-03-28T15:50:06 IST" duration-ms="8152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactRedirectsToDetailsPage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:06 IST" name="browserclose" finished-at="2025-03-28T15:50:07 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:07 IST" name="lunchbrowser" finished-at="2025-03-28T15:50:12 IST" duration-ms="5274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testDeleteContactDetails()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:12 IST" name="testDeleteContactDetails" finished-at="2025-03-28T15:50:37 IST" duration-ms="25562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:38 IST" name="browserclose" finished-at="2025-03-28T15:50:38 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:40 IST" name="lunchbrowser" finished-at="2025-03-28T15:50:45 IST" duration-ms="5206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:45 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:50:54 IST" duration-ms="8558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[johndoe@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[567098]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[User should be added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:54 IST" name="browserclose" finished-at="2025-03-28T15:50:54 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:54 IST" name="lunchbrowser" finished-at="2025-03-28T15:50:59 IST" duration-ms="4230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:50:59 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:51:08 IST" duration-ms="9493" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alice@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-02]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[400001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Validation failed: lastName: Path `lastName` is required.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message mismatch! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message mismatch! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.TC_005ContactDetailsTest.testEditContactDetails(TC_005ContactDetailsTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:08 IST" name="browserclose" finished-at="2025-03-28T15:51:08 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:08 IST" name="lunchbrowser" finished-at="2025-03-28T15:51:13 IST" duration-ms="4404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:13 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:51:25 IST" duration-ms="12083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwqw]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8765432109]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[99/99/9999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Validation failed: birthdate: Birthdate is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:25 IST" name="browserclose" finished-at="2025-03-28T15:51:25 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:25 IST" name="lunchbrowser" finished-at="2025-03-28T15:51:31 IST" duration-ms="5742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:31 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:51:48 IST" duration-ms="17000" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma@example]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwqw]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-04]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Validation failed: email: Email is invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message mismatch! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message mismatch! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.TC_005ContactDetailsTest.testEditContactDetails(TC_005ContactDetailsTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:48 IST" name="browserclose" finished-at="2025-03-28T15:51:48 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:48 IST" name="lunchbrowser" finished-at="2025-03-28T15:51:53 IST" duration-ms="5249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:51:53 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:52:14 IST" duration-ms="20147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[765432109812123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-05]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Validation failed: phone: Phone number is invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:14 IST" name="browserclose" finished-at="2025-03-28T15:52:14 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:14 IST" name="lunchbrowser" finished-at="2025-03-28T15:52:19 IST" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:19 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:52:41 IST" duration-ms="22072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7654321098]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-06]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2002]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[User should be added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:41 IST" name="browserclose" finished-at="2025-03-28T15:52:41 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:41 IST" name="lunchbrowser" finished-at="2025-03-28T15:52:47 IST" duration-ms="5898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:52:47 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:53:03 IST" duration-ms="16066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wilson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7654321098]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990-01-07]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2003]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[User should be added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:53:03 IST" name="browserclose" finished-at="2025-03-28T15:53:03 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:53:03 IST" name="lunchbrowser" finished-at="2025-03-28T15:53:09 IST" duration-ms="5655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testEditContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:53:09 IST" name="testEditContactDetails" data-provider="readdata" finished-at="2025-03-28T15:53:21 IST" duration-ms="12206" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emma@example]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[76543210981231]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[99/99/9999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[qwqw]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2003]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Validation failed: phone: Phone number is invalid, email: Email is invalid, birthdate: Birthdate is invalid, lastName: Path `lastName` is required.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message mismatch! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message mismatch! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.TC_005ContactDetailsTest.testEditContactDetails(TC_005ContactDetailsTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditContactDetails -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:53:21 IST" name="browserclose" finished-at="2025-03-28T15:53:22 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="reportclose()[pri:0, instance:test.TC_005ContactDetailsTest@42a48628]" started-at="2025-03-28T15:53:32 IST" name="reportclose" finished-at="2025-03-28T15:53:33 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclose -->
+      </class> <!-- test.TC_005ContactDetailsTest -->
+      <class name="test.TC_006LogoutTest">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_006LogoutTest@38d8f54a]" started-at="2025-03-28T15:53:22 IST" name="testDetails" finished-at="2025-03-28T15:53:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="lunchbrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006LogoutTest@38d8f54a]" started-at="2025-03-28T15:53:22 IST" name="lunchbrowser" finished-at="2025-03-28T15:53:26 IST" duration-ms="4562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchbrowser -->
+        <test-method signature="testLogoutPage()[pri:0, instance:test.TC_006LogoutTest@38d8f54a]" started-at="2025-03-28T15:53:26 IST" name="testLogoutPage" finished-at="2025-03-28T15:53:32 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutPage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:test.TC_006LogoutTest@38d8f54a]" started-at="2025-03-28T15:53:32 IST" name="browserclose" finished-at="2025-03-28T15:53:32 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.TC_006LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

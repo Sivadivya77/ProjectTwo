@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 29 14:39:10 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>287 seconds (287512 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC_004ContactDisplayTest.testContactsAlphabeticalOrder()'><b>testContactsAlphabeticalOrder</b><br>Test class: test.TC_004ContactDisplayTest</td>
+<td><div><pre>java.lang.AssertionError: Contacts are not in alphabetical order!: Lists differ at element [23]: k != S expected [k] but found [S]
+	at test.TC_004ContactDisplayTest.testContactsAlphabeticalOrder(TC_004ContactDisplayTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017980078", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1017980078'><pre>java.lang.AssertionError: Contacts are not in alphabetical order!: Lists differ at element [23]: k != S expected [k] but found [S]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:1644)
+	at test.TC_004ContactDisplayTest.testContactsAlphabeticalOrder(TC_004ContactDisplayTest.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>test.TC_004ContactDisplayTest@3bd82cf5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Alice, , johndoe@example.com, 9876543210, 1990-01-02, Mumbai, India, 400001, Validation failed: lastName: Path `lastName` is required.</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: test.TC_002LoginTest<br>Parameters: validuser@example.com, validpassword, valid</td>
+<td></td>
+<td>0</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Bob, Smith, johndoe@example.com, 8765432109, 99/99/9999, New York, USA, 10001, Validation failed: birthdate: Birthdate is invalid</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Emma, Wilson, emma@example.com, "", User validation failed: password: Path `password` (`""`) is shorter than the minimum allowed length (7).</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: test.TC_002LoginTest<br>Parameters: invaliduser@example.com, validpassword, Invalid</td>
+<td></td>
+<td>1</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Emma, Wilson, emma@example.com, 765432109812123545, 1990-01-05, Sydney, Australia, 2001, Validation failed: phone: Path `phone` (`765432109812123545`) is longer than the maximum allowed length (15).</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testContactRedirectsToDetailsPage()'><b>testContactRedirectsToDetailsPage</b><br>Test class: test.TC_005ContactDetailsTest</td>
+<td></td>
+<td>2</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Emma, Wilson, emma@example.com, 7654321098, 1990-01-06, , Australia, 2002, User should be added successfully</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Emma, Wilson, emma@example.com, 7654321098, 1990-01-07, Sydney, , 2003, User should be added successfully</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_003ContactPageTest.testAddContact()'><b>testAddContact</b><br>Test class: test.TC_003ContactPageTest<br>Parameters: John, Doe, john@example.com, 1234567890, 1/1/1990, 123 Main St, New York, NY, 10001, USA</td>
+<td></td>
+<td>4</td>
+<td>test.TC_003ContactPageTest@fa4c865</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Isla, "", isla.scott@example.com, Password@123, User should be added successfully</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: David, Miller, david.miller@example, Password@123, User validation failed: email: Email is invalid</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: test.TC_002LoginTest<br>Parameters: invaliduser@example.com, wrongpassword, Invalid</td>
+<td></td>
+<td>1</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Emma, Wilson, emma@example, qwqw, 1990-01-04, Sydney, Australia, 2000, Validation failed: phone: Phone number is invalid, email: Email is invalid</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_003ContactPageTest.testAddContact()'><b>testAddContact</b><br>Test class: test.TC_003ContactPageTest<br>Parameters: Alice, , alice@example.com, 9876543210, 2/15/1985, , LA, CA, 90001, USA</td>
+<td></td>
+<td>3</td>
+<td>test.TC_003ContactPageTest@fa4c865</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: "", Jack, jack.turner@example.com, Test@123, User should be added successfully</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Alice, Johnson, alice@example.com, Password@123, User should be added successfully</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testLoginButtonVisibility()'><b>testLoginButtonVisibility</b><br>Test class: test.TC_002LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Grace, Lee, "", Password@123, User validation failed: email: Email is invalid</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_004ContactDisplayTest.testContactDetailsDisplayedCorrectly()'><b>testContactDetailsDisplayedCorrectly</b><br>Test class: test.TC_004ContactDisplayTest</td>
+<td></td>
+<td>6</td>
+<td>test.TC_004ContactDisplayTest@3bd82cf5</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: test.TC_002LoginTest</td>
+<td></td>
+<td>2</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: john, Doe, johndoe@example.com, 1234567890, 1990-01-01, Chennai, UK, 567098, User should be added successfully</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Henry, White, henry.white@example.com, test, User validation failed: password: Path `password` (`test`) is shorter than the minimum allowed length (7).</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupUsers()'><b>testSignupUsers</b><br>Test class: test.TC_001SignUpTest<br>Parameters: Charlie, Brown, charlie.brown@example.com, Short1, User validation failed: password: Path `password` (`Short1`) is shorter than the minimum allowed length (7).</td>
+<td></td>
+<td>3</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_003ContactPageTest.testAddContact()'><b>testAddContact</b><br>Test class: test.TC_003ContactPageTest<br>Parameters: Bob, Smith, bob@example.com, 1112223333, 99/99/9999, 456 Elm St, Chicago, IL, 60601, USA</td>
+<td></td>
+<td>3</td>
+<td>test.TC_003ContactPageTest@fa4c865</td></tr>
+<tr>
+<td title='test.TC_002LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: test.TC_002LoginTest<br>Parameters: validuser@example.com, wrongpassword, Invalid</td>
+<td></td>
+<td>1</td>
+<td>test.TC_002LoginTest@4c178a76</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testEditContactDetails()'><b>testEditContactDetails</b><br>Test class: test.TC_005ContactDetailsTest<br>Parameters: Emma, , emma@example, 76543210981231, 99/99/9999, Sydney, qwqw, 2003, Validation failed: phone: Phone number is invalid, email: Email is invalid, birthdate: Birthdate is invalid</td>
+<td></td>
+<td>8</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+<tr>
+<td title='test.TC_006LogoutTest.testLogoutPage()'><b>testLogoutPage</b><br>Test class: test.TC_006LogoutTest</td>
+<td></td>
+<td>3</td>
+<td>test.TC_006LogoutTest@247bddad</td></tr>
+<tr>
+<td title='test.TC_001SignUpTest.testSignupFunctionality()'><b>testSignupFunctionality</b><br>Test class: test.TC_001SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>test.TC_001SignUpTest@1ff4931d</td></tr>
+<tr>
+<td title='test.TC_005ContactDetailsTest.testDeleteContactDetails()'><b>testDeleteContactDetails</b><br>Test class: test.TC_005ContactDetailsTest</td>
+<td></td>
+<td>10</td>
+<td>test.TC_005ContactDetailsTest@544fa968</td></tr>
+</table><p>
+</body>
+</html>
